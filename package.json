@@ -1,0 +1,14 @@
+{
+  "name": "hko-ntp-proxy",
+  "version": "1.0.0",
+  "description": "香港天文台 NTP 時間中繼 API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ntp-client": "^0.5.3"
+  }
+}
